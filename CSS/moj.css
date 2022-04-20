@@ -1,0 +1,91 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: gray;
+}
+.square {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.purple {
+	width: 70px;
+	height: 70px;
+	background-color: purple;
+}
+
+.gold {
+	width: 100px;
+	height: 100px;
+	background-color: gold;
+}
+
+.blue {
+	width: 150px;
+	height: 150px;
+	background-color: blue;
+}
+
+.lime {
+	width: 200px;
+	height: 200px;
+	background-color: lime;
+}
+.buttonTask {
+	margin: 0px 155px;
+}
+.divTask,
+ul {
+	margin: 5px 150px;
+	font-size: 28px;
+}
+
+.test {
+	background-color: gold;
+	width: 160px;
+	height: 35px;
+	border-radius: 5px;
+	box-shadow: 5px 5px 10px;
+}
+
+.threeTask {
+	padding: 20px 20px;
+	margin-left: 20px;
+	cursor: pointer;
+}
+.button {
+	width: 100px;
+	height: 50px;
+	background-color: white;
+	border-radius: 5px;
+	font-size: 20px;
+	cursor: pointer;
+}
+
+.squarethree {
+	width: 304px;
+	height: 304px;
+	background-color: white;
+	margin-top: 20px;
+	border-radius: 5px;
+}
+.threediv {
+	width: 304px;
+	height: 50px;
+	text-align: center;
+	font-size: 30px;
+	background-color: white;
+	margin-top: 20px;
+	border-radius: 5px;
+	display: inline-block;
+}
+
+.return {
+	width: 100px;
+}
